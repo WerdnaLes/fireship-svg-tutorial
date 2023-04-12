@@ -1,0 +1,41 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.button-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+}
+
+.phone-container {
+  background-color: aquamarine;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
